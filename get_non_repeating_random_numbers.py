@@ -1,13 +1,22 @@
-# -*- unicode:utf8 -*-
+# -*- coding: utf-8 -*-
 
 import random
 
-def get_different_random_int_set(a,b,n):
+
+def get_non_repeating_random_numbers(a, b, n):
+    """
+    get non-repeating random numbers(integer)
+    :param a: min number
+    :param b: max number
+    :param n: numbers
+    :return: non_repeating random numbers set
+    """
     result = set()
     while True:
-        result.add(random.randint(a,b))
+        result.add(random.randint(a, b))
         if len(result) == n:
             return result
 
+
 if __name__ == "__main__":
-	print(get_different_random_int_set(1,13,4))
+    print(get_non_repeating_random_numbers(1, 13, 4))
