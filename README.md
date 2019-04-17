@@ -7,6 +7,9 @@ some tips about python
 ## get non-repeating random numbers（integer）(获得不重复随机数，如：24点游戏)
 get_non_repeating_random_numbers.py
 ps: you can do 24 point game by get_non_repeating_random_numbers(1,13,4)
+
+## lru_cache(缓存函数和最近一次的参数)
+lru_cache_test.py
   
 
 
